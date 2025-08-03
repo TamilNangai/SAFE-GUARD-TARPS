@@ -35,7 +35,7 @@ function Images() {
                 <div  className=" flex m-[20px] basis-[200px]  max-lg:basis-[113px] max-lg:h-[115px] max-sm:basis-[69px] max-sm:h-[63px] max-sm:m-2"><img src={i13} alt="i13" /></div>
                 <div  className=" flex m-[20px] basis-[200px]  max-lg:basis-[113px] max-lg:h-[115px] max-sm:basis-[69px] max-sm:h-[63px] max-sm:m-2"><img src={i14} alt="i14" /></div>
                 <div  className=" flex m-[20px] basis-[200px]  max-lg:basis-[113px] max-lg:h-[115px] max-sm:basis-[69px] max-sm:h-[63px] max-sm:m-2"><img src={i15} alt="i15" /></div>
-                <div  className=" flex m-2 md:hidden"><img src={i16} alt="i16" /></div>
+                <div  className=" flex max-sm:m-2 md:hidden basis-[113px]  max-sm:basis-[69px] max-sm:h-[63px] sm:h-[115px] m-[20px]"><img src={i16} alt="i16" /></div>
             </div>
         </div>
     )
