@@ -7,8 +7,8 @@ import What from './assets/footer/footerDv/WhatsApp.png'
 
 function Footer() {
     return (
-        <div >
-            <footer className='w-full h-90 bg-gray-100 max-sm:h-[116px]'>
+        <div>
+            <footer className='w-full h-auto bg-gray-100 max-sm:h-auto'>
                 <p id="footerheading" className='text-3xl font-bold  p-8 text-black  font-[Abhaya-Libre] max-lg:text-3xl  max-sm:text-[14px] max-sm:p-1'>SAFE GUARD TARPS</p>                
                 <div id='footer-item' className='flex  justify-evenly'>
                     <div id='one' className='flex  w-50 ms-15 max-sm:ms-0 max-lg:ms-0  max-sm:w-40 '>
@@ -20,8 +20,8 @@ function Footer() {
                             Tamil Nadu, 612001.
                         </p>
                     </div>
-                    <div id='line1' className='me-1 border shadow-[0px_5px_5px]  border-black  border-solid  shadow-gray-400 max-sm:h-[58.95px]'></div>
-                    <div id='line1' className=' border shadow-[0px_5px_5px]  border-black  border-solid shadow-gray-400 max-sm:h-[58.95px]'></div>
+                    <div id='line1' className='me-1 border shadow-[0px_5px_5px] h-[200px] max-lg:h-[180px] border-black  border-solid  shadow-gray-400 max-sm:h-[58.95px]'></div>
+                    <div id='line1' className=' border shadow-[0px_5px_5px]  h-[200px]  max-lg:h-[180px] border-black  border-solid shadow-gray-400 max-sm:h-[58.95px]'></div>
                     <div id='two' className='w-50 max-sm:hidden'>
                         <ul className='list-none font-[Be-Vietnam]  text-2xl font-bold '>
                             <li className='mb-4 flex justify-center max-lg:m-0 max-lg:text-[18px]'>Home</li>
@@ -30,14 +30,17 @@ function Footer() {
                             <li className='mb-4 flex justify-center max-lg:m-0 max-lg:text-[18px]'>Contact us</li>
                         </ul>
                     </div>
-                    <div id='line1' className='me-1   border shadow-[0px_20px_10px_0px]  border-black  border-solid  shadow-gray-500 max-sm:hidden  max-sm:relative  max-sm:right-25'></div>
-                    <div id='line1' className=' border   shadow-[0px_20px_10px_0px]  border-black  border-solid shadow-gray-500 max-sm:hidden'></div>
-                    <div id='three' className='w-50 flex'>
+                    <div id='line1' className='me-1   border shadow-[0px_20px_10px_0px]  h-[200px]  max-lg:h-[180px] border-black  border-solid  shadow-gray-500 max-sm:hidden  max-sm:relative  max-sm:right-25'></div>
+                    <div id='line1' className=' border   shadow-[0px_20px_10px_0px]  h-[200px]  max-lg:h-[180px] border-black  border-solid shadow-gray-500 max-sm:hidden'></div>
+                    <div id='three' className='w-50 '>
+                         <p className='max-lg:ms-3 max-sm:ms-3 max-sm:mb-0 mb-0 font-bold font-[Abhaya-Libre] lg:hidden max-sm:text-[12px] max-lg:text-[18px]'>Follow us on</p>
+                         <div  className='flex'>
                         <a href="https://www.facebook.com/"> <img className='m-[0px_10px_0px_10px] max-lg:w-[40px] max-lg:h-[40px] max-sm:w-[25px] max-sm:h-[25px]' src={Fb} alt="fb" /></a>
                         <a href="https://www.whatsapp.com/"><img className='m-[0px_10px_0px_10px] max-lg:w-[40px] max-lg:h-[40px] max-sm:w-[25px] max-sm:h-[25px]' src={What} alt="what" /></a>
                         <a href="https://www.instagram.com/"><img className='m-[0px_10px_0px_10px] max-lg:w-[40px] max-lg:h-[40px] max-sm:w-[25px] max-sm:h-[25px]'  src={Insta} alt="insta" /></a>
                         <a href="https://www.twitter.com/"><img className='m-[0px_10px_0px_10px] max-lg:w-[40px] max-lg:h-[40px] max-sm:w-[25px] max-sm:h-[25px]' src={Twit} alt="twit" /></a>
                         <a href="https://www.threads.com/"><img className='m-[0px_13px_0px_10px] max-lg:w-[30px] max-lg:h-[35px] max-sm:w-[20px] max-sm:h-[23px]' src={Vector} alt="vector" /></a>
+                        </div>
                     </div>
                 </div>
             </footer>
